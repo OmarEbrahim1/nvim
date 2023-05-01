@@ -25,6 +25,7 @@ return require('packer').startup(function(use)
 	  tag = "*", config = function() require("nvim-surround").setup({}) end
   })
   use( 'folke/which-key.nvim' )
+  use( 'lervag/vimtex' )
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v1.x',
