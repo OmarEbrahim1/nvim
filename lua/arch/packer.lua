@@ -26,6 +26,7 @@ return require('packer').startup(function(use)
   })
   use( 'folke/which-key.nvim' )
   use( 'lervag/vimtex' )
+  use( 'm4xshen/autoclose.nvim' )
   use {
       'VonHeikemen/lsp-zero.nvim',
       branch = 'v1.x',
