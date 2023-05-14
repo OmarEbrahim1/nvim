@@ -23,6 +23,7 @@ vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
-vim.keymap.set("n", "<leader>rp", "<cmd>!python3 %<CR>", { silent = true })
-vim.keymap.set("n", "<leader>rb", "<cmd>!bash %<CR>", { silent = true })
+vim.keymap.set("n", "<leader>rp", "<cmd>w % | !python3 %<CR>", { silent = true })
+vim.keymap.set("n", "<leader>rb", "<cmd>w % | !bash %<CR>", { silent = true })
+vim.keymap.set("n", "<leader>ro", "<cmd>w % | !octave %<CR>", { silent = true })
 

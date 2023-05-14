@@ -21,19 +21,19 @@ return require('packer').startup(function(use)
   use( 'tpope/vim-fugitive' )
   use( 'numToStr/Comment.nvim' )
   use({
-	  "kylechui/nvim-surround",
-	  tag = "*", config = function() require("nvim-surround").setup({}) end
+      "kylechui/nvim-surround",
+      tag = "*", config = function() require("nvim-surround").setup({}) end
   })
   use( 'folke/which-key.nvim' )
   use( 'lervag/vimtex' )
   use {
-	  'VonHeikemen/lsp-zero.nvim',
-	  branch = 'v1.x',
-	  requires = {
-		  -- LSP Support
-		  {'neovim/nvim-lspconfig'},
-		  {'williamboman/mason.nvim'},
-		  {'williamboman/mason-lspconfig.nvim'},
+      'VonHeikemen/lsp-zero.nvim',
+      branch = 'v1.x',
+      requires = {
+          -- LSP Support
+          {'neovim/nvim-lspconfig'},
+          {'williamboman/mason.nvim'},
+          {'williamboman/mason-lspconfig.nvim'},
 
 		  -- Autocompletion
 		  {'hrsh7th/nvim-cmp'},
