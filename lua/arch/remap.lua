@@ -26,5 +26,7 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 vim.keymap.set("n", "<leader>rp", "<cmd>w % | !python3 %<CR>", { silent = true })
 vim.keymap.set("n", "<leader>rb", "<cmd>w % | !bash %<CR>", { silent = true })
 vim.keymap.set("n", "<leader>ro", "<cmd>w % | !octave %<CR>", { silent = true })
+vim.keymap.set("n", "<leader>rl", "<cmd>w % | !lua %<CR>", { silent = true })
+vim.keymap.set("n", "<leader>rs", "<cmd>w % | !pwsh %<CR>", { silent = true })
 vim.keymap.set("n", "<leader>rm", "<cmd>w % | MarkdownPreview<CR>", { silent = true })
 
