@@ -28,5 +28,6 @@ vim.keymap.set("n", "<leader>rb", "<cmd>w % | !bash %<CR>", { silent = true })
 vim.keymap.set("n", "<leader>ro", "<cmd>w % | !octave %<CR>", { silent = true })
 vim.keymap.set("n", "<leader>rl", "<cmd>w % | !lua %<CR>", { silent = true })
 vim.keymap.set("n", "<leader>rs", "<cmd>w % | !pwsh %<CR>", { silent = true })
+vim.keymap.set("n", "<leader>rc", "<cmd>w % | !gcc -o %:r % && ./%:r<CR>", { silent = true })
 vim.keymap.set("n", "<leader>rm", "<cmd>w % | MarkdownPreview<CR>", { silent = true })
 
